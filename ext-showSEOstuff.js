@@ -18,6 +18,9 @@ ret.push({name: "twitter:creator", val: $('head meta[name="twitter:creator"]').a
 // schema.org for google
 ret.push({name: "itemprop name", val: $('head meta[itemprop="name"]').attr('content')});
 ret.push({name: "itemprop description", val: $('head meta[itemprop="description"]').attr('content')});
+// content
+ret.push({name: "h1", val: $('h1').text()});
+ret.push({name: "first image in markup", val: $('img:first').attr('src')});
 
 console.log("SEO?");
 console.table(ret);
