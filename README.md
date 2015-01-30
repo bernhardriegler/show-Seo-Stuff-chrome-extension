@@ -12,4 +12,4 @@ Chrome Extension that will log SEO information of a Website to console
 Congrats, the Extension is now loaded
 
 Now: go to any website and open developer tools (F12). 
-You will see some if title, description, OG, twitter and basic schema.org info is present in the console.
+You will see if title, description, OG, twitter and basic schema.org info is present in the console.
